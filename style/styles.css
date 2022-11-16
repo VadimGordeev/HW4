@@ -1,0 +1,106 @@
+@font-face {
+    font-family:'Raleway';
+    src:local('Raleway'), local('Raleway'),
+    url('../fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+    url('../fonts/Raleway/Raleway-Regular.woff') format('woff'),
+    url('../fonts/Raleway/Raleway-Regular.ttf') format('ttf'),
+    url('../fonts/Raleway/Raleway-Regular.eot') format('eot');
+}
+@font-face {
+    font-family:'Open Sans';
+    src:local('Open Sans'), local('Open Sans'),
+    url('../fonts/OpenSans/Open\ Sans.woff2') format('woff2'),
+    url('../fonts/OpenSans/Open\ Sans.woff') format('woff'),
+    url('../fonts/OpenSans/Open\ Sans.ttf') format('ttf'),
+    url('../fonts/OpenSans/Open\ Sans.eot') format('eot');
+}
+main {
+    width: 1170px;
+    height: 540px;
+    margin: 0 auto;
+}
+.tab, .tab__title {
+    display: inline-block;
+}
+.tab input[type="radio"] { 
+    display: none; 
+}
+.tab__title { 
+    width: 184px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+    vertical-align: middle;
+}
+.tab__content {
+    position: absolute; 
+    border: 1px solid #C6CBCD; 
+    display: none; 
+    width: 1170px;
+    height: 500px;
+}
+.tab__content__h3 {
+    width: 570px;
+    height: 124px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    margin: 0px 30px 27px 100px;
+    color: #000000;
+}
+.tab__content__text {
+    margin: 0px 30px 27px 100px;
+    width: 570px;
+    height: 210px;
+}
+.tab__content__text__p {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+.tab__content__button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    border: none;
+    color: #FFFFFF;
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    margin: 0px 330px 54px 100px;
+}
+.tab__content__img {
+    float: right;
+}
+.tab :checked + .tab__title {
+    position: relative; 
+    background: #fff; 
+    top: 1px;
+    z-index: 1; 
+    width: 203px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+}
+.tab :checked ~ .tab__content {
+    display: block; 
+}

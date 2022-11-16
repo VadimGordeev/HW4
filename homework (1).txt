@@ -1,0 +1,31 @@
+Home Task
+
+Задание 1.
+Верстка секции tabs. 
+При создании верстки использовать технологию БЭМ. 
+Подключить шрифты.
+Каждую новую секцию верстаем во внешнем файле стилей.
+
+Ширина ограничевающего контейнера - 1170px.
+Поля - 0 15px.
+
+Ссылка на макет в Figma:
+https://www.figma.com/file/D3hs2PC8uClFPe6iTTNXat/TMS_front?node-id=617%3A1270
+
+Задание 2.
+Выполнить задания по работе со списками:
+https://webref.ru/practice/2456
+https://webref.ru/practice/2459
+
+Задание 3. 
+Выполнить задания по работе с таблицами:
+https://webref.ru/practice/2497
+https://webref.ru/practice/2498
+https://webref.ru/individual/2413
+
+Задание 4. *
+Выполнить дополнительные задания по пройденному материалу:
+https://webref.ru/individual/2414
+https://webref.ru/individual/2360
+https://webref.ru/individual/2388
+
